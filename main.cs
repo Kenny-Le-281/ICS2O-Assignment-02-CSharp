@@ -17,7 +17,11 @@ class Program
         // input
         Console.WriteLine("This program calculates the area of a parallelogram.");
         Console.WriteLine("");
+        Console.WriteLine("The formula is: a = b x h");
+        Console.WriteLine("");
+        Console.WriteLine("Please enter the measurements (cm).");
 
+        Console.WriteLine("");
         Console.Write("Enter the base measurement: ");
         baseOfParallelogram = Convert.ToDouble(Console.ReadLine());
         Console.Write("Enter the height measurement: ");
@@ -28,7 +32,7 @@ class Program
         area = baseOfParallelogram * heightOfParallelogram;
 
         // output
-        Console.WriteLine("The area of parallelogram is: " + area.ToString("0.00") + " " + "cm².");
+        Console.WriteLine("The area of the parallelogram is: " + area.ToString("0.00") + " " + "cm².");
 
         Console.WriteLine("\nDone.");
     }
