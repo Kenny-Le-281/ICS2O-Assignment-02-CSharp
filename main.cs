@@ -19,7 +19,7 @@ class Program
         Console.WriteLine("");
         Console.WriteLine("The formula is: a = b x h");
         Console.WriteLine("");
-        Console.WriteLine("Please enter the measurements (cm).");
+        Console.WriteLine("Please enter the measurements (in cm).");
 
         Console.WriteLine("");
         Console.Write("Enter the base measurement: ");
